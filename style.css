@@ -41,3 +41,29 @@ body {
     margin-right: 5px;
 }
 
+button:hover {
+    background-color: #005fa3;
+}
+
+/* Task list styling */
+#taskList {
+    list-style-type: none;
+    margin-top: 1rem;
+}
+
+#taskList li {
+    padding: 10px;
+    background-color: #e8f0fe;
+    border: 1px solid #cbd5e0;
+    border-radius: 6px;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Optional: Completed task style */
+.completed {
+    text-decoration: line-through;
+    color: #999;
+}
